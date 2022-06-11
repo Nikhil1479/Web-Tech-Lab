@@ -1,14 +1,14 @@
-import java.util.*;
-class ques5
+import java.util.Scanner;
+public class ques5
 {
-    public static void main(String args[])
+    public static void main(String[] args)
     {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the name: ");
         String name=sc.nextLine();
         System.out.println("Enter the roll: ");
         int roll=sc.nextInt();
-        int marks[]=new int[5];
+        int[] marks =new int[5];
         int cgpa=0;
         System.out.println("Enter the marks: ");
         for (int i=0;i<5;i++)
